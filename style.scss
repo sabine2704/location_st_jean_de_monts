@@ -1,0 +1,45 @@
+@import "layout/body";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+
+
+main{
+  
+  .plage {
+    height: 500px;
+  }
+  .vignettes{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    h2{
+      font-family: "DidoteTextW01-Italic";
+      font-weight: bold;
+      font-size: 1.5em;
+      text-align: center;
+      padding: 20px;
+    }
+    .box{
+      width: 25%;
+      height: 425px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img{
+        object-fit: cover;
+        height: 40%;
+        width: 80%;
+      }
+      p{
+        width: 80%;
+        text-align: justify;
+        padding: 20px 0;
+      }
+      button{
+        justify-content: flex-end;
+      }
+    }
+  }
+}

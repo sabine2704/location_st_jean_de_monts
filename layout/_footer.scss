@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: rgb(94, 94, 99);
+  color: white;
+  .reservation{
+    font-family: "DidoteTextW01-Italic";
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+}
