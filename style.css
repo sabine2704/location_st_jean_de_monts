@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/index/sable-fin-convertimage_optimized.png");
+  background-image: url("images/index/sable-fin_optimized.png");
 }
 
 header {
@@ -163,5 +163,235 @@ main .vignettes .box button {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.diaporama {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 50px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.diaporama-1 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  width: 560px;
+  height: 420px;
+  border: 3px solid #333;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url(images/mobile-home/1.jpg);
+  animation-name: diapo1;
+  -webkit-animation: 90s;
+          animation: 90s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: diapo1;
+  -webkit-animation-duration: 90s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: diapo1;
+  -moz-animation-duration: 90s;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes diapo1 {
+  0% {
+    background-image: url(images/mobile-home/1.jpg);
+  }
+  10% {
+    background-image: url(images/mobile-home/2.jpg);
+  }
+  20% {
+    background-image: url(images/mobile-home/3.jpg);
+  }
+  30% {
+    background-image: url(images/mobile-home/4.jpg);
+  }
+  40% {
+    background-image: url(images/mobile-home/5.jpg);
+  }
+  50% {
+    background-image: url(images/mobile-home/6.jpg);
+  }
+  60% {
+    background-image: url(images/mobile-home/7.jpg);
+  }
+  70% {
+    background-image: url(images/mobile-home/8.jpg);
+  }
+  80% {
+    background-image: url(images/mobile-home/9.jpg);
+  }
+  90% {
+    background-image: url(images/mobile-home/10.jpg);
+  }
+  100% {
+    background-image: url(images/mobile-home/11.jpg);
+  }
+}
+
+@keyframes diapo1 {
+  0% {
+    background-image: url(images/mobile-home/1.jpg);
+  }
+  10% {
+    background-image: url(images/mobile-home/2.jpg);
+  }
+  20% {
+    background-image: url(images/mobile-home/3.jpg);
+  }
+  30% {
+    background-image: url(images/mobile-home/4.jpg);
+  }
+  40% {
+    background-image: url(images/mobile-home/5.jpg);
+  }
+  50% {
+    background-image: url(images/mobile-home/6.jpg);
+  }
+  60% {
+    background-image: url(images/mobile-home/7.jpg);
+  }
+  70% {
+    background-image: url(images/mobile-home/8.jpg);
+  }
+  80% {
+    background-image: url(images/mobile-home/9.jpg);
+  }
+  90% {
+    background-image: url(images/mobile-home/10.jpg);
+  }
+  100% {
+    background-image: url(images/mobile-home/11.jpg);
+  }
+}
+
+.diaporama-2 {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 420px;
+  height: 560px;
+  border: 3px solid #333;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url(images/mobile-home/12.jpg);
+  animation-name: diapo2;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: diapo2;
+  -webkit-animation-duration: 90s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: diapo2;
+  -moz-animation-duration: 90s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes diapo2 {
+  0% {
+    background-image: url(images/mobile-home/12.jpg);
+  }
+  12% {
+    background-image: url(images/mobile-home/13.jpg);
+  }
+  24% {
+    background-image: url(images/mobile-home/14.jpg);
+  }
+  36% {
+    background-image: url(images/mobile-home/15.jpg);
+  }
+  48% {
+    background-image: url(images/mobile-home/16.jpg);
+  }
+  60% {
+    background-image: url(images/mobile-home/17.jpg);
+  }
+  72% {
+    background-image: url(images/mobile-home/18.jpg);
+  }
+  85% {
+    background-image: url(images/mobile-home/19.jpg);
+  }
+  100% {
+    background-image: url(images/mobile-home/20.jpg);
+  }
+}
+
+@keyframes diapo2 {
+  0% {
+    background-image: url(images/mobile-home/12.jpg);
+  }
+  12% {
+    background-image: url(images/mobile-home/13.jpg);
+  }
+  24% {
+    background-image: url(images/mobile-home/14.jpg);
+  }
+  36% {
+    background-image: url(images/mobile-home/15.jpg);
+  }
+  48% {
+    background-image: url(images/mobile-home/16.jpg);
+  }
+  60% {
+    background-image: url(images/mobile-home/17.jpg);
+  }
+  72% {
+    background-image: url(images/mobile-home/18.jpg);
+  }
+  85% {
+    background-image: url(images/mobile-home/19.jpg);
+  }
+  100% {
+    background-image: url(images/mobile-home/20.jpg);
+  }
+}
+
+.description {
+  font-family: "DidoteTextW01-Italic";
+  font-size: 1.2em;
+  margin: 0 50px 50px 50px;
+}
+
+.description h2 {
+  font-weight: bold;
+}
+
+.description li {
+  margin-left: 30px;
+  list-style-type: disc;
+}
+
+.description .planning {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.description .calendrier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
